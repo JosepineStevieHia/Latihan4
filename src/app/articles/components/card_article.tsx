@@ -18,7 +18,7 @@ export default function Card({ img, title, desc, author }: CardProps) {
           {title}
         </h5>
         <p className="mb-3 font-normal text-gray-700">{desc}</p>
-        <small className="text-gray-500">By: {author}</small>
+        <small className="text-gray-500">by: {author}</small>
       </div>
     </div>
   );

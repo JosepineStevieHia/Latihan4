@@ -15,7 +15,7 @@ export async function getArticles(): Promise<Article[]> {
         const data = await res.json();
         return data.data;
     } catch (error) {
-        console.error("Terjadi kesalahan:", error);
+        console.error("Terjadi Kesalahan:", error);
         throw error;
     }
 }
